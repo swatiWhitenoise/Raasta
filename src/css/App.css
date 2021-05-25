@@ -92,7 +92,7 @@ text-decoration: none;
 }
 /* ---- particles.js container ---- */
 
-#particles-js {
+#tsparticles {
   position: fixed;
   width: 100%;
   height: 100%;
