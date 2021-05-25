@@ -16,10 +16,7 @@ class Home extends Component {
       <main>
         <section className="home" style={{ backgroundImage: `url(${noise})` }}>
           <div>                   
-           <h1>Every experience sheds
-a new light
-Where every night leads
-to a different d</h1>
+           <h1>Every experience sheds a new light Where every night leads to a different d</h1>
           </div>
         </section>
       </main>

@@ -24,7 +24,6 @@ h1, h2, h3, h4, h5, h6{
 
 canvas {
   display: block;
-  vertical-align: bottom;
 }
 b, strong{
   font-weight: bold;
@@ -570,12 +569,15 @@ background: #ebebeb;
 padding: 50px 15%;
 }
 
-.MS-content img{
-width: 150px;
+.react-multi-carousel-list img{
+width: 130px;
 }
 .footer{
 background: #dcdcdc;
   padding: 60px 13%;
+}
+.react-multi-carousel-item{
+  text-align: center;
 }
 .footer-logo{
 display: -webkit-box;
@@ -1101,6 +1103,7 @@ border-bottom: 3px solid #000;
 .tab-container .nav-tabs .nav-link {
 padding: 0 10px;
 }
+.nav-link a{color: #fff;}
 .reach-container{
 padding: 50px 0 20px;
 
@@ -1558,9 +1561,7 @@ bottom: 35vh;
     top: 49vh;
     z-index: 2;
   }
-  .work-block-img a{
-    /* cursor: url("../images/play-button.svg"), auto; */
-  }
+
   .nav-item-raasta-4{
   display: inline;
   position: fixed;
@@ -2327,9 +2328,7 @@ align-items: center;
 .navbar-brand img{
   width: 180px;
 }
-.navbar-dark .navbar-toggler-icon {
-  /* background-image: url("../images/menu-icon.svg"); */
-}
+
 .desk-menu{
   display: none;
 }
