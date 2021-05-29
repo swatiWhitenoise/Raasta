@@ -4,9 +4,10 @@ import { TweenLite } from "gsap";
 
 
 function SmoothScroll() {
-  let smoothScrol = useRef(null);
+  
+  const smooths = useRef(null);
 
-  useEffect(() =>{
+  useEffect(() => {
 
     // console.log( "ready!" );
     if($(window).width() >= 600){
@@ -85,7 +86,7 @@ function SmoothScroll() {
     }
   });
   return(
-    <div id="scroll-container" ref={el => smoothScrol = el}></div>
+    <div id="scroll-container" ref={smooths}></div>
 );
 }
 
